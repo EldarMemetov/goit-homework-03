@@ -95,6 +95,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  padding: 24px 0;
 }
 
 .link-item-main :hover,
@@ -247,6 +248,7 @@ ul {
 .list-team {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .team-container {
   padding: 32px 16px;
@@ -255,7 +257,6 @@ ul {
 .info-team {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
 }
 
 .our-team {

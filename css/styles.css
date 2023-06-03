@@ -78,13 +78,17 @@ ul {
   margin-right: 76px;
 }
 
+.logo-portfolio {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .web {
   color: var(--title-color);
 }
 
 .list-menu {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
@@ -219,7 +223,7 @@ ul {
 /** --------------skills-list-info --------------- */
 
 .are-we-doing {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 
 .skills-doing {
@@ -266,7 +270,6 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 .list-team .name-team {
   font-family: "Roboto";
@@ -302,10 +305,6 @@ ul {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-}
-.link-logo-footer {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 /** --------------next-html-portfolio--------------- */
